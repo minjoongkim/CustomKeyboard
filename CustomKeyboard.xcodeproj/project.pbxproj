@@ -13,6 +13,8 @@
 		1E3E919D1C06934400C57EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E919B1C06934400C57EA0 /* Main.storyboard */; };
 		1E3E919F1C06934400C57EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E919E1C06934400C57EA0 /* Assets.xcassets */; };
 		1E3E91A21C06934400C57EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E91A01C06934400C57EA0 /* LaunchScreen.storyboard */; };
+		1E3E91AC1C0693C000C57EA0 /* CustomKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E91AB1C0693C000C57EA0 /* CustomKeyBoard.m */; };
+		1E3E91AE1C06A7C800C57EA0 /* pad_del@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E91AD1C06A7C800C57EA0 /* pad_del@2x.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		1E3E919E1C06934400C57EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E3E91A11C06934400C57EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E3E91A31C06934400C57EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3E91AA1C0693C000C57EA0 /* CustomKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyBoard.h; sourceTree = "<group>"; };
+		1E3E91AB1C0693C000C57EA0 /* CustomKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyBoard.m; sourceTree = "<group>"; };
+		1E3E91AD1C06A7C800C57EA0 /* pad_del@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_del@2x.PNG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 		1E3E91911C06934400C57EA0 /* CustomKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				1E3E91AD1C06A7C800C57EA0 /* pad_del@2x.PNG */,
+				1E3E91A91C0693C000C57EA0 /* CustomKeyboard */,
 				1E3E91951C06934400C57EA0 /* AppDelegate.h */,
 				1E3E91961C06934400C57EA0 /* AppDelegate.m */,
 				1E3E91981C06934400C57EA0 /* ViewController.h */,
@@ -77,6 +84,15 @@
 				1E3E91931C06934400C57EA0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E3E91A91C0693C000C57EA0 /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1E3E91AA1C0693C000C57EA0 /* CustomKeyBoard.h */,
+				1E3E91AB1C0693C000C57EA0 /* CustomKeyBoard.m */,
+			);
+			path = CustomKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3E91AE1C06A7C800C57EA0 /* pad_del@2x.PNG in Resources */,
 				1E3E91A21C06934400C57EA0 /* LaunchScreen.storyboard in Resources */,
 				1E3E919F1C06934400C57EA0 /* Assets.xcassets in Resources */,
 				1E3E919D1C06934400C57EA0 /* Main.storyboard in Resources */,
@@ -152,6 +169,7 @@
 				1E3E919A1C06934400C57EA0 /* ViewController.m in Sources */,
 				1E3E91971C06934400C57EA0 /* AppDelegate.m in Sources */,
 				1E3E91941C06934400C57EA0 /* main.m in Sources */,
+				1E3E91AC1C0693C000C57EA0 /* CustomKeyBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kmj.CustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kmj.CustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
