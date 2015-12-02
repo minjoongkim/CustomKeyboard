@@ -15,6 +15,7 @@
 		1E3E91A21C06934400C57EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E91A01C06934400C57EA0 /* LaunchScreen.storyboard */; };
 		1E3E91AC1C0693C000C57EA0 /* CustomKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E91AB1C0693C000C57EA0 /* CustomKeyBoard.m */; };
 		1E3E91AE1C06A7C800C57EA0 /* pad_del@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E91AD1C06A7C800C57EA0 /* pad_del@2x.PNG */; };
+		1EB9E4411C0ED84000ABFFAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9E4401C0ED84000ABFFAE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1E3E91AA1C0693C000C57EA0 /* CustomKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyBoard.h; sourceTree = "<group>"; };
 		1E3E91AB1C0693C000C57EA0 /* CustomKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyBoard.m; sourceTree = "<group>"; };
 		1E3E91AD1C06A7C800C57EA0 /* pad_del@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_del@2x.PNG"; sourceTree = "<group>"; };
+		1EB9E4401C0ED84000ABFFAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		1E3E91861C06934400C57EA0 = {
 			isa = PBXGroup;
 			children = (
+				1EB9E4401C0ED84000ABFFAE /* README.md */,
 				1E3E91911C06934400C57EA0 /* CustomKeyboard */,
 				1E3E91901C06934400C57EA0 /* Products */,
 			);
@@ -168,6 +171,7 @@
 			files = (
 				1E3E919A1C06934400C57EA0 /* ViewController.m in Sources */,
 				1E3E91971C06934400C57EA0 /* AppDelegate.m in Sources */,
+				1EB9E4411C0ED84000ABFFAE /* README.md in Sources */,
 				1E3E91941C06934400C57EA0 /* main.m in Sources */,
 				1E3E91AC1C0693C000C57EA0 /* CustomKeyBoard.m in Sources */,
 			);
@@ -318,6 +322,7 @@
 				1E3E91A81C06934400C57EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
