@@ -16,6 +16,9 @@
 		1E3E91AC1C0693C000C57EA0 /* CustomKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E91AB1C0693C000C57EA0 /* CustomKeyBoard.m */; };
 		1E3E91AE1C06A7C800C57EA0 /* pad_del@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E91AD1C06A7C800C57EA0 /* pad_del@2x.PNG */; };
 		1EB9E4411C0ED84000ABFFAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9E4401C0ED84000ABFFAE /* README.md */; };
+		1EB9E4451C0ED9AB00ABFFAE /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9E4421C0ED9AB00ABFFAE /* Screenshot1.png */; };
+		1EB9E4461C0ED9AB00ABFFAE /* Screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9E4431C0ED9AB00ABFFAE /* Screenshot2.png */; };
+		1EB9E4471C0ED9AB00ABFFAE /* Screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9E4441C0ED9AB00ABFFAE /* Screenshot3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		1E3E91AB1C0693C000C57EA0 /* CustomKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyBoard.m; sourceTree = "<group>"; };
 		1E3E91AD1C06A7C800C57EA0 /* pad_del@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_del@2x.PNG"; sourceTree = "<group>"; };
 		1EB9E4401C0ED84000ABFFAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1EB9E4421C0ED9AB00ABFFAE /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
+		1EB9E4431C0ED9AB00ABFFAE /* Screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot2.png; sourceTree = "<group>"; };
+		1EB9E4441C0ED9AB00ABFFAE /* Screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,9 @@
 		1E3E91861C06934400C57EA0 = {
 			isa = PBXGroup;
 			children = (
+				1EB9E4421C0ED9AB00ABFFAE /* Screenshot1.png */,
+				1EB9E4431C0ED9AB00ABFFAE /* Screenshot2.png */,
+				1EB9E4441C0ED9AB00ABFFAE /* Screenshot3.png */,
 				1EB9E4401C0ED84000ABFFAE /* README.md */,
 				1E3E91911C06934400C57EA0 /* CustomKeyboard */,
 				1E3E91901C06934400C57EA0 /* Products */,
@@ -155,7 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB9E4461C0ED9AB00ABFFAE /* Screenshot2.png in Resources */,
+				1EB9E4471C0ED9AB00ABFFAE /* Screenshot3.png in Resources */,
 				1E3E91AE1C06A7C800C57EA0 /* pad_del@2x.PNG in Resources */,
+				1EB9E4451C0ED9AB00ABFFAE /* Screenshot1.png in Resources */,
 				1E3E91A21C06934400C57EA0 /* LaunchScreen.storyboard in Resources */,
 				1E3E919F1C06934400C57EA0 /* Assets.xcassets in Resources */,
 				1E3E919D1C06934400C57EA0 /* Main.storyboard in Resources */,

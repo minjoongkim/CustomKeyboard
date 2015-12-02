@@ -1,6 +1,8 @@
-# CustomKeyboard
+# CustomKeyboard for iOS
 [iOS]CustomKeyboard
-
+![Screenshot](Screenshot1.png)
+![Screenshot](Screenshot2.png)
+![Screenshot](Screenshot2.png)
 ## Installation & Usage
 
 ### Setup
