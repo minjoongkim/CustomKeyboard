@@ -178,7 +178,7 @@ alpha:1.0]
     [keyboardView addSubview:[self makeBtn:btn_bottom_width*2+2 y:btn_height*4+4+1 width:btn_bottom_width height:btn_height tagValue:100 title:@"123" action:@selector(relocationKeyboard:) addInfoView:NO]];
     
     [keyboardView addSubview:[self makeBtn:btn_bottom_width*3+3 y:btn_height*4+4+1 width:btn_bottom_width height:btn_height tagValue:100 title:@"Enter" action:@selector(returnPressed:) addInfoView:NO]];
-     
+    
     
     return keyboardView;
 }
